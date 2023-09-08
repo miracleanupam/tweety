@@ -1,0 +1,63 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+orange:
+  content: "I just at an orange"
+  created_at: <%= 10.minutes.ago %>
+  user: michael
+
+priemer_league:
+  content: "Premier league is the greatest league"
+  created_at: <%= 20.minutes.ago %>
+  user: michael
+
+america:
+  content: "America has become so unstable and unsafe"
+  created_at: <%= 15.minutes.ago %>
+  user: michael
+
+coffee:
+  content: "The correct spelling is cofveve"
+  created_at: <%= 5.minutes.ago %>
+  user: michael
+
+solti:
+  content: "The dog's name is solti"
+  created_at: <%= 7.minutes.ago %>
+  user: michael
+
+schedule:
+  content: "My schedule is full for the next 7 lifetimes, please don not disturb"
+  created_at: <%= 7.minutes.ago %>
+  user: michael
+  
+laptop:
+  content: "My laptop is the sleekest thing rn fr."
+  created_at: <%= 13.minutes.ago %>
+  user: dwight
+  
+desk:
+  content: "My desk is made of mahogamy"
+  created_at: <%= 19.minutes.ago %>
+  user: andy
+
+mirror:
+  content: "Mirrors reflect the light in the most beautiful way"
+  created_at: <%= 23.minutes.ago %>
+  user: andy
+
+anime:
+  content: "I watch a lot of animes. One Piece is my favorite"
+  created_at: <%= 6.minutes.ago %>
+  user: gabe
+
+twitter:
+  content: "Twitter has become so toxic, I will stay away from now on."
+  created_at: <%= 78.minutes.ago %>
+  user: gabe
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(word_count: 10) %>
+  created_at: <%= 42.days.ago %>
+  user: michael
+<% end %>

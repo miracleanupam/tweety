@@ -1,0 +1,169 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+michael:
+  name: Michael Scott
+  email: michael@dundermifflin.com
+  password_digest: <%= User.digest('password')  %>
+  admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+
+dwight:
+  name: Dwight Schrute
+  email: dwight@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+jim:
+  name: Jim Halpert
+  email: jim@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+pam:
+  name: Pamela Beesly
+  email: pam@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+andy:
+  name: Andrew Bernard
+  email: andrew@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+toby:
+  name: Toby Flenderson
+  email: toby@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+ryan:
+  name: Ryan Howard
+  email: ryan@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+stanley:
+  name: Stanley Hudson
+  email: stanley@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+kevin:
+  name: Kevin Malone
+  email: kevin@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+meredith:
+  name: Meredith Palmer
+  email: meredith@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+angela:
+  name: Angela Martin
+  email: angela@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+oscar:
+  name: Oscar Martinez
+  email: oscar@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+phyllis:
+  name: Phyllis Vance/Lapin
+  email: phyllis@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+kelly:
+  name: Kelly Kapoor
+  email: kelly@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+creed:
+  name: Creed Bratton
+  email: creed@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+darryl:
+  name: Darryl Philbin
+  email: darryl@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+erin:
+  name: Erin Hannon
+  email: erin@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+gabe:
+  name: Gabe Lewis
+  email: gabe@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+holly:
+  name: Holly Flax
+  email: holly@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+jan:
+  name: Jan Levinson
+  email: jan@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+roy:
+  name: Roy Anderson
+  email: roy@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+nellie:
+  name: Nellie Bertram
+  email: nellie@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+robert:
+  name: Robert California
+  email: robert@dundermifflin.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+todd:
+  name: Todd Packer
+  email: todd@dundermifflin.com
+  password_digest: <%= User.digest('password') %>

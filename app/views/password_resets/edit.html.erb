@@ -1,0 +1,19 @@
+<% provide(:title, "Set New Password") %>
+
+<div class="center">Set a new Password:</div>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_with(model: @user, url: password_reset_path(params[:id]), local:true) { |f| %>
+
+      <%= render 'shared/error_messages', object: f.object %>
+      
+      <%= hidden_field_tag :email, @user.email %>
+
+      <%= f.password_field :password, class: "form-control", placeholder: "Enter new password" %>
+      <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm new password" %>
+
+      <%= f.submit "Update Password", class: "btn btn-secondary" %>
+    <% } %>
+  </div>
+</div>
